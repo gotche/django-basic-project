@@ -3,5 +3,5 @@ from configurations import Configuration, values
 from .base import BaseSettings
 
 
-class Dev(BaseSettings, Configuration):
+class {{ project_name }}(BaseSettings, Configuration):
     pass

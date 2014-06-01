@@ -3,6 +3,6 @@ from configurations import Configuration, values
 from .base import BaseSettings
 
 
-class Production(BaseSettings, Configuration):
+class {{ project_name }}(BaseSettings, Configuration):
     DEBUG = False
     DATABASE_URL = values.DatabaseURLValue()
